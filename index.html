@@ -40,44 +40,125 @@
 <body>
 
     <h1>My Journey with Python</h1>
-    <div class="styled-paragraph">
-        My entire journey of learning Python has been life changing with so many ups and downs. With hindsight, I realize the growth of the skill in me at every stage and how each of those stages was important. Starting with very simple codes and working towards more advanced projects, I discovered that Python has helped me considerably in improving my programming skills and problem-solving techniques.
-    </div>
+    <!-- Define a div to hold the paragraph -->
+    <div id="journey" class="styled-paragraph"></div>
 
     <h1>Understanding RA 10173 and RA 10175</h1>
-    <div class="styled-paragraph">
-        In my exploration of the RA 10173 and the RA 10175, I notice my understanding of the concerns on these laws broadening. These laws do not just exist as measures aimed at protecting the privacy of the individual. These laws also work towards enhancing safety in cyberspace considering rising incidences of cybercrime.
-    </div>
+    <div id="laws" class="styled-paragraph"></div>
 
     <h1>Section 1-5: Fundamentals of Data Privacy</h1>
-    <div class="styled-paragraph">
-        The right to privacy in respect to personal information constitutionally enshrined in RA 10173 is the starting point of this assessment. The realization where one understands that consent has to be acquired in order for personal data processing to occur is very much significant. Singled out in the third to the fifth provisions, this principle is fortifying individuals, making them masters of their data. With regards to this way of thinking, the law has paid special attention to those data which have the highest degrees of sensitivity including health and financial information. Now I think it is necessary to practice carefulness with regards to which personal information I make available on the internet.
-    </div>
+    <div id="section1-5" class="styled-paragraph"></div>
 
     <h1>Sections 6-10: Rights of Data Subjects</h1>
-    <div class="styled-paragraph">
-        The rights contained in sections 6 to 10 point out the power of an individual in the context of data privacy. This includes the rights to access, correct and to request for erasure which in a way looks at an individual as a data subject. This understanding makes me feel that there is a need to be clear by organizations on what they do with our data. It has also instilled a sense of vigilance in me; I have to ensure that my rights as a data subject are adhered to and defended.
-    </div>
+    <div id="section6-10" class="styled-paragraph"></div>
 
     <h1>Sections 11-20: Obligations of Personal Information Controllers</h1>
-    <div class="styled-paragraph">
-        Sections 11 to 20 allow the author to address the basic principles of protection of personal information when carried out by organizations. The inclusion of a requirement for companies is a good measure in achieving data protection in the event there is a data breach. I understood that organizations cannot just look at data as a form of trade, instead professional practices and ethics should come first. This duty of care concerning personal data also relates to those organizations that act as third-party processors as they too fall under the requirement of the law. Appreciating this aspect also raises one’s level of understanding of the need for responsibility in carrying out the activity of processing data.
-    </div>
+    <div id="section11-20" class="styled-paragraph"></div>
 
     <h1>Sections 21-30: Breaches and Penalties</h1>
-    <div class="styled-paragraph">
-        Principles 21 to 30 explain what happens in case one or more data privacy laws are contravened. Such penalties as unauthorized or unintentional handling of confidential data make this problem as grave as it should be. The speculated fines also act as a brake that no organization would want to look away from its responsibilities otherwise. Understanding the implication that there should be at least one hundred victims for maximum penalties to be imposed makes everyone think of the same reason why we need to protect our data (Section 35).
-    </div>
+    <div id="section21-30" class="styled-paragraph"></div>
 
     <h1>Sections 31-35: Cybercrime Prevention</h1>
-    <div class="styled-paragraph">
-        The assimilation of RA 10175 speaks to the changing of laws over time with the advancement of technology. Acknowledging the limitations in jurisdiction wherein NBI and PNP members can apply cybercrime laws also section 10 proves the seriousness of the government in fighting the issues of cyberspace. The provision of illegal access and illegal interception of data highlights the challenges embedded in one’s cyberspace. These parts help in understanding the importance of paying attention to the risk of cyber and what continues to be done to mitigate such occasions.
-    </div>
+    <div id="section31-35" class="styled-paragraph"></div>
 
     <h1>Conclusion</h1>
-    <div class="styled-paragraph">
-        To sum up, the use of legislative frameworks such as RA 10173 and RA 10175 has been beneficial in deepening the understanding of data privacy and cybersecurity. They act as preventive measures not only for personal information but also towards the aim of promoting accountability and responsibility by the organization. The appetite for knowledge instills in me the need to be on the defense regarding my data and, more importantly, be able to fight for my rights as a data subject. The integration of individual and organizational aspects is something I see as critical in a world that is becoming predominantly digital with each passing day, which I have come to understand.
-    </div>
+    <div id="conclusion" class="styled-paragraph"></div>
+
+    <!-- PyScript block -->
+    <py-script>
+        # Python code to create and display HTML content
+
+        # Define the content of each section
+        journey_content = """
+        My entire journey of learning Python has been life changing with so many ups and downs. 
+        With hindsight, I realize the growth of the skill in me at every stage and how each of 
+        those stages was important. Starting with very simple codes and working towards more 
+        advanced projects, I discovered that Python has helped me considerably in improving 
+        my programming skills and problem-solving techniques.
+        """
+        
+        laws_content = """
+        In my exploration of the RA 10173 and the RA 10175, I notice my understanding of the 
+        concerns on these laws broadening. These laws do not just exist as measures aimed at 
+        protecting the privacy of the individual. These laws also work towards enhancing safety 
+        in cyberspace considering rising incidences of cybercrime.
+        """
+
+        section1_5_content = """
+        The right to privacy in respect to personal information constitutionally enshrined in 
+        RA 10173 is the starting point of this assessment. The realization where one understands 
+        that consent has to be acquired in order for personal data processing to occur is very 
+        much significant. Singled out in the third to the fifth provisions, this principle is 
+        fortifying individuals, making them masters of their data. With regards to this way of 
+        thinking, the law has paid special attention to those data which have the highest degrees 
+        of sensitivity including health and financial information. Now I think it is necessary 
+        to practice carefulness with regards to which personal information I make available on 
+        the internet.
+        """
+
+        section6_10_content = """
+        The rights contained in sections 6 to 10 point out the power of an individual in the 
+        context of data privacy. This includes the rights to access, correct and to request for 
+        erasure which in a way looks at an individual as a data subject. This understanding 
+        makes me feel that there is a need to be clear by organizations on what they do with our 
+        data. It has also instilled a sense of vigilance in me; I have to ensure that my rights 
+        as a data subject are adhered to and defended.
+        """
+
+        section11_20_content = """
+        Sections 11 to 20 allow the author to address the basic principles of protection of 
+        personal information when carried out by organizations. The inclusion of a requirement 
+        for companies is a good measure in achieving data protection in the event there is a 
+        data breach. I understood that organizations cannot just look at data as a form of 
+        trade, instead professional practices and ethics should come first. This duty of care 
+        concerning personal data also relates to those organizations that act as third-party 
+        processors as they too fall under the requirement of the law. Appreciating this aspect 
+        also raises one’s level of understanding of the need for responsibility in carrying out 
+        the activity of processing data.
+        """
+
+        section21_30_content = """
+        Principles 21 to 30 explain what happens in case one or more data privacy laws are 
+        contravened. Such penalties as unauthorized or unintentional handling of confidential 
+        data make this problem as grave as it should be. The speculated fines also act as a 
+        brake that no organization would want to look away from its responsibilities otherwise. 
+        Understanding the implication that there should be at least one hundred victims for 
+        maximum penalties to be imposed makes everyone think of the same reason why we need to 
+        protect our data (Section 35).
+        """
+
+        section31_35_content = """
+        The assimilation of RA 10175 speaks to the changing of laws over time with the 
+        advancement of technology. Acknowledging the limitations in jurisdiction wherein NBI 
+        and PNP members can apply cybercrime laws also section 10 proves the seriousness of the 
+        government in fighting the issues of cyberspace. The provision of illegal access and 
+        illegal interception of data highlights the challenges embedded in one’s cyberspace. 
+        These parts help in understanding the importance of paying attention to the risk of 
+        cyber and what continues to be done to mitigate such occasions.
+        """
+
+        conclusion_content = """
+        To sum up, the use of legislative frameworks such as RA 10173 and RA 10175 has been 
+        beneficial in deepening the understanding of data privacy and cybersecurity. They act 
+        as preventive measures not only for personal information but also towards the aim of 
+        promoting accountability and responsibility by the organization. The appetite for 
+        knowledge instills in me the need to be on the defense regarding my data and, more 
+        importantly, be able to fight for my rights as a data subject. The integration of 
+        individual and organizational aspects is something I see as critical in a world that 
+        is becoming predominantly digital with each passing day, which I have come to 
+        understand.
+        """
+
+        # Find the div elements and set their innerHTML to the respective content
+        Element("journey").write(journey_content)
+        Element("laws").write(laws_content)
+        Element("section1-5").write(section1_5_content)
+        Element("section6-10").write(section6_10_content)
+        Element("section11-20").write(section11_20_content)
+        Element("section21-30").write(section21_30_content)
+        Element("section31-35").write(section31_35_content)
+        Element("conclusion").write(conclusion_content)
+    </py-script>
 
 </body>
 </html>
